@@ -23,16 +23,13 @@ import javafx.beans.property.StringProperty;
 public class Person_Test {
 
 	private static PersonDomainModel person1;
-	private static PersonDomainModel person2;
 
 	private static UUID person1UUID = UUID.randomUUID();
-	private static UUID person2UUID = UUID.randomUUID();
 
 	@BeforeClass
 	public static void personInstance() throws Exception {
 
 		Date person1Birth = null;
-		Date person2Birth = null;
 
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
