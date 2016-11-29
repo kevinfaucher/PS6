@@ -37,11 +37,9 @@ public class Person_Test {
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
 		person1 = new PersonDomainModel();
-		person2 = new PersonDomainModel();
 
 		try {
 			person1Birth = dateFormat.parse("1994-11-27");
-			person2Birth = dateFormat.parse("1995-05-20");
 
 		} catch (ParseException e) {
 			e.printStackTrace();
